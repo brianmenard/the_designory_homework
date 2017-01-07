@@ -80,10 +80,54 @@ body{
 }
 
     .article{
-        height: 500px;
-        border:solid thin red;
-        width: 550px;
+        width: 525px;
         margin: 25px;
         display: inline-block;
+        background-color: white;
+        box-shadow: 0px 0px 10px #888888;
+        text-align: left;
+        vertical-align:top;
     }
+    
+    #article_image1{
+        height: 220px;
+        margin: 15px;
+        background-color: #EBEBEB;
+    }
+    
+    #article_image2{
+        height: 220px;
+        margin: 15px;
+        background-color: #C7C7C7;
+    }
+    
+    #article_image3{
+        height: 220px;
+        margin: 15px;
+        background-color: #7F7F7F;
+    }
+    
+    .article_content{
+        margin: 15px;
+        margin-bottom: 40px;
+        margin-right: 25px;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .article_content h1{
+        font-weight: normal;
+        margin-bottom: 5px;
+    }
+    
+    .article_content h2{
+        font-weight: normal;
+        margin-top: 0px;
+        font-size: 100%;
+    }
+    
+    .article_content p{
+        font-weight: normal;
+        line-height: 25px;
+    }
+    
 /** END DIV STYLING **/
