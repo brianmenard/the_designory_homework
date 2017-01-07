@@ -29,4 +29,25 @@ body{
     padding-left: 25px; padding-right:25px;
 }
 
+.hero_image{
+    height:700px;
+    background-color: #EBEBEB;
+}
+
+#header_text{
+    padding-top: 200px;
+    padding-left:150px;
+    max-width: 600px;
+}
+
+#header_text h1{
+    font-size: 350%;
+    margin-top: 5px; margin-bottom: 5px;
+}
+
+#header_text h2{
+    font-size: 225%;
+    margin-bottom: 0px;
+}
+
 /** END DIV STYLING **/
