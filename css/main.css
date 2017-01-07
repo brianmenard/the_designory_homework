@@ -150,7 +150,6 @@ body{
     }
     
     .main_content{
-        height: 500px;
         display: inline-block;
         margin: 25px;
         width: 43.2vw;
@@ -177,9 +176,7 @@ body{
     }
     
     .main_content .button{
-        vertical-align: bottom;
-        position: absolute;
-        bottom: 25px;
+        margin-top: 100px;
     }
     
     .footer{
@@ -201,3 +198,42 @@ body{
     }
     
 /** END DIV STYLING **/
+
+/** MEDIA QUERIES **/
+
+@media (min-width: 1000px) and (max-width:1400px) {
+    .main_content {
+        height: 600px;
+    }
+}
+
+@media (min-width: 500px) and (max-width:1100px) {
+    .article {
+        width: 75%;
+    }
+    .main_content_container{
+        padding-top: 1250px;
+    }
+    .main_content .button{
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 500px) and (max-width:1000px) {
+    .main_content {
+        text-align: center;
+        width: 90%;
+    }
+    .main_content p{
+        width: 80%;
+        display: inline-block;
+    }
+    .main_content .button{
+        display: inline-block;
+        position: relative;
+        margin-top: 30px;
+    }
+    .main_content_photo{
+        width: 85vw;
+    }
+}
