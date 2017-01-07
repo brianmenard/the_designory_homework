@@ -42,7 +42,7 @@ body{
 
     #header_text{
         padding-top: 75px;
-        padding-left:175px;
+        padding-left:10vw;
         max-width: 600px;
     }
     
@@ -72,7 +72,6 @@ body{
     }
     
 .articles_container{
-    height: 500px;
     position: absolute;
     top: 600px;
     width: 100%;
@@ -80,7 +79,7 @@ body{
 }
 
     .article{
-        width: 525px;
+        width: 28%;
         margin: 25px;
         display: inline-block;
         background-color: white;
@@ -128,6 +127,22 @@ body{
     .article_content p{
         font-weight: normal;
         line-height: 25px;
+    }
+    
+.main_content_container{
+    height: 800px;
+    padding-top: 350px;
+    text-align: center;
+}
+
+    .main_content_photo{
+        background-color: #909090;
+        height: 500px;
+        width:500px
+    }
+    
+    .main_content{
+        
     }
     
 /** END DIV STYLING **/
