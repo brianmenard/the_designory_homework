@@ -111,6 +111,7 @@ body{
         margin-bottom: 40px;
         margin-right: 25px;
         font-family: 'Arial', sans-serif;
+        text-align: justify;
     }
     
     .article_content h1{
@@ -130,19 +131,51 @@ body{
     }
     
 .main_content_container{
-    height: 800px;
-    padding-top: 350px;
+    padding-top: 375px;
     text-align: center;
+    width: 100%;
 }
 
     .main_content_photo{
         background-color: #909090;
         height: 500px;
-        width:500px
+        display: inline-block;
+        margin: 25px;
+        width: 43.5vw;
+        vertical-align: top;
     }
     
     .main_content{
-        
+        height: 500px;
+        display: inline-block;
+        margin: 25px;
+        width: 43.5vw;
+        vertical-align: top;
+        text-align: left;
+        position: relative;
+    }
+    
+    .main_content h1{
+        font-size: 300%;
+        margin-top: 0px; margin-bottom: 0px;
+    }
+    
+    .main_content h2{
+        font-size: 200%;
+        margin-top: 10px; 
+    }
+    
+    .main_content p{
+        line-height: 25px;
+        font-size: 115%;
+        font-weight: bold;
+        width: 30vw;
+    }
+    
+    .main_content .button{
+        vertical-align: bottom;
+        position: absolute;
+        bottom: 25px;
     }
     
 /** END DIV STYLING **/
