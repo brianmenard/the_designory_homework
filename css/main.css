@@ -136,20 +136,24 @@ body{
     width: 100%;
 }
 
+    .photo_container{
+        border-style: inset;
+        display: inline-block;
+        margin: 25px;
+    }
+    
     .main_content_photo{
         background-color: #909090;
         height: 500px;
-        display: inline-block;
-        margin: 25px;
-        width: 43.5vw;
-        vertical-align: top;
+        width: 41vw;
+        margin:15px;
     }
     
     .main_content{
         height: 500px;
         display: inline-block;
         margin: 25px;
-        width: 43.5vw;
+        width: 43.2vw;
         vertical-align: top;
         text-align: left;
         position: relative;
@@ -176,6 +180,24 @@ body{
         vertical-align: bottom;
         position: absolute;
         bottom: 25px;
+    }
+    
+    .footer{
+        width: 90vw;
+        border-top: thick solid black;
+        height: 100px;
+        margin-left: 5vw; 
+        padding-top:25px;
+        font-size: 90%;
+    }
+    
+    .footer_left{
+        float: left;
+        
+    }
+    
+    .footer_right{
+        float: right;
     }
     
 /** END DIV STYLING **/
