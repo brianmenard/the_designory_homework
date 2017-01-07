@@ -19,12 +19,12 @@ body{
         float: left;
         font-weight: bold;
         font-size: 250%;
-        padding-left: 50px; padding-top:25px;
+        padding-left: 50px; padding-top:35px;
     }
     
     #navlinks_container{
         float:right;
-        padding-right: 50px; padding-top: 40px;
+        padding-right: 50px; padding-top: 50px;
         text-transform: uppercase;
     }
     
