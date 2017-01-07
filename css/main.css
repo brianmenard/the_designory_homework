@@ -207,9 +207,12 @@ body{
     }
 }
 
-@media (min-width: 500px) and (max-width:1100px) {
+@media (max-width:1100px) {
     .article {
         width: 75%;
+    }
+    .article_content{
+        width: 60%;
     }
     .main_content_container{
         padding-top: 1250px;
@@ -219,7 +222,10 @@ body{
     }
 }
 
-@media (min-width: 500px) and (max-width:1000px) {
+@media (max-width:1050px) {
+    .main_content_container{
+        padding-top: 1350px;
+    }
     .main_content {
         text-align: center;
         width: 90%;
@@ -235,5 +241,23 @@ body{
     }
     .main_content_photo{
         width: 85vw;
+    }
+}
+
+@media (min-width: 500px) and (max-width:700px) {
+    .main_content_container{
+        padding-top: 1350px;
+    }
+    .article_content{
+        width: 90%;
+    }
+}
+
+@media (max-width:500px) {
+    .main_content_container{
+        padding-top: 1450px;
+    }
+    .article_content{
+        width: 90%;
     }
 }
