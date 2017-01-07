@@ -6,7 +6,7 @@ body{
 /** DIV STYLING **/
 
 .navbar{
-    height: 100px;
+    height: 115px;
     border-bottom: thick black solid;
 }
 
@@ -30,24 +30,40 @@ body{
 }
 
 .hero_image{
-    height:700px;
+    height:650px;
     background-color: #EBEBEB;
+    border-bottom: thick solid 	#A9AAAC;
 }
 
 #header_text{
-    padding-top: 200px;
-    padding-left:150px;
+    padding-top: 100px;
+    padding-left:175px;
     max-width: 600px;
 }
 
 #header_text h1{
-    font-size: 350%;
+    font-size: 375%;
     margin-top: 5px; margin-bottom: 5px;
+    font-weight: bold;
 }
 
 #header_text h2{
     font-size: 225%;
     margin-bottom: 0px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    width: 225px;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding-left: 10px; padding-right:10px;
+    padding-top: 15px; padding-bottom:15px;
+    text-transform: uppercase;
+    font-size: 115%;
+    font-weight: bold;
 }
 
 /** END DIV STYLING **/
