@@ -1,10 +1,32 @@
-
+body{
+    margin: 0px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
 
 /** DIV STYLING **/
 
 .navbar{
-    background-color: blue;
-    height: 150px;
+    height: 100px;
+    border-bottom: thick black solid;
+}
+
+#logotype{
+    float: left;
+    font-weight: bold;
+    font-size: 250%;
+    padding-left: 50px; padding-top:25px;
+}
+
+#navlinks_container{
+    float:right;
+    padding-right: 50px; padding-top: 40px;
+    text-transform: uppercase;
+}
+
+#navlinks_container a{
+    text-decoration: none;
+    color: #1e1e1e;
+    padding-left: 25px; padding-right:25px;
 }
 
 /** END DIV STYLING **/
