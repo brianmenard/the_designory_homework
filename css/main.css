@@ -3,6 +3,11 @@ body{
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+/** 
+*{
+    border:thin red solid;
+}
+**/
 /** DIV STYLING **/
 
 .navbar{
@@ -10,24 +15,24 @@ body{
     border-bottom: thick black solid;
 }
 
-#logotype{
-    float: left;
-    font-weight: bold;
-    font-size: 250%;
-    padding-left: 50px; padding-top:25px;
-}
-
-#navlinks_container{
-    float:right;
-    padding-right: 50px; padding-top: 40px;
-    text-transform: uppercase;
-}
-
-#navlinks_container a{
-    text-decoration: none;
-    color: #1e1e1e;
-    padding-left: 25px; padding-right:25px;
-}
+    #logotype{
+        float: left;
+        font-weight: bold;
+        font-size: 250%;
+        padding-left: 50px; padding-top:25px;
+    }
+    
+    #navlinks_container{
+        float:right;
+        padding-right: 50px; padding-top: 40px;
+        text-transform: uppercase;
+    }
+    
+    #navlinks_container a{
+        text-decoration: none;
+        color: #1e1e1e;
+        padding-left: 25px; padding-right:25px;
+    }
 
 .hero_image{
     height:650px;
@@ -35,35 +40,50 @@ body{
     border-bottom: thick solid 	#A9AAAC;
 }
 
-#header_text{
-    padding-top: 100px;
-    padding-left:175px;
-    max-width: 600px;
-}
-
-#header_text h1{
-    font-size: 375%;
-    margin-top: 5px; margin-bottom: 5px;
-    font-weight: bold;
-}
-
-#header_text h2{
-    font-size: 225%;
-    margin-bottom: 0px;
-}
-
-.button{
-    background-color: black;
-    color: white;
-    width: 225px;
+    #header_text{
+        padding-top: 75px;
+        padding-left:175px;
+        max-width: 600px;
+    }
+    
+    #header_text h1{
+        font-size: 375%;
+        margin-top: 5px; margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    #header_text h2{
+        font-size: 225%;
+        margin-bottom: 0px;
+    }
+    
+    .button{
+        background-color: black;
+        color: white;
+        width: 225px;
+        text-align: center;
+        margin-top: 25px;
+        border-radius: 5px;
+        padding-left: 10px; padding-right:10px;
+        padding-top: 15px; padding-bottom:15px;
+        text-transform: uppercase;
+        font-size: 115%;
+        font-weight: bold;
+    }
+    
+.articles_container{
+    height: 500px;
+    position: absolute;
+    top: 600px;
+    width: 100%;
     text-align: center;
-    margin-top: 25px;
-    border-radius: 5px;
-    padding-left: 10px; padding-right:10px;
-    padding-top: 15px; padding-bottom:15px;
-    text-transform: uppercase;
-    font-size: 115%;
-    font-weight: bold;
 }
 
+    .article{
+        height: 500px;
+        border:solid thin red;
+        width: 550px;
+        margin: 25px;
+        display: inline-block;
+    }
 /** END DIV STYLING **/
