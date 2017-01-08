@@ -169,10 +169,11 @@ body{
     }
     
     .main_content p{
-        line-height: 25px;
+        line-height: 30px;
         font-size: 115%;
         font-weight: bold;
         width: 30vw;
+        text-align:justify;
     }
     
     .main_content .button{
